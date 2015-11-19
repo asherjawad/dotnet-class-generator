@@ -1,4 +1,4 @@
-# dotnet-class-generator 
+# DotNET Class Generator
 
 Generate Classes from database C#/Application 
 

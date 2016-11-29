@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="CONNECTION_BAD" xml:space="preserve">
+    <value>The connection test failed.{1}{1}{0}</value>
+  </data>
+  <data name="CONNECTION_GOOD" xml:space="preserve">
+    <value>The connection test was successful.{1}{1}You will connect as:{1}{0}</value>
+  </data>
+  <data name="CONTENT" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="KEY_VALUE_TOO_SHORT" xml:space="preserve">
+    <value>Enter a key and value of at least 3 characters.</value>
+  </data>
+  <data name="LOCAL" xml:space="preserve">
+    <value>LOCAL</value>
+  </data>
+  <data name="NEW_TEMPLATE" xml:space="preserve">
+    <value>A new Template has been created as:{1}{1}{0}</value>
+  </data>
+  <data name="NODE_LIST_EMPTY" xml:space="preserve">
+    <value>//*[not(node())]</value>
+  </data>
+  <data name="NODE_LIST_KEY" xml:space="preserve">
+    <value>GNR8/Tokens/Token</value>
+  </data>
+  <data name="NO_OBJECTS_SELECTED" xml:space="preserve">
+    <value>You have to select at least one object to proceed.</value>
+  </data>
+  <data name="NO_PRIMARYKEY" xml:space="preserve">
+    <value>[PK NOT FOUND]</value>
+  </data>
+  <data name="NO_TEMPLATE" xml:space="preserve">
+    <value>The Template ({0}) is missing.{1}{1}Please create or generate a new one to continue.</value>
+  </data>
+  <data name="NO_USER_DETAIL" xml:space="preserve">
+    <value>Either select to use Integrated Security (Trusted Connection){0}or supply a valid user name and password.</value>
+  </data>
+  <data name="OBJECTS_CREATED" xml:space="preserve">
+    <value>All of the selected objects have now been created and saved to:{0}{0}{1}.</value>
+  </data>
+  <data name="PROVIDER" xml:space="preserve">
+    <value>SQLOLEDB</value>
+  </data>
+  <data name="PROVIDER_IS" xml:space="preserve">
+    <value>Provider={0};Data Source={1};Initial Catalog={2};Integrated Security=SSPI;</value>
+  </data>
+  <data name="PROVIDER_NOT_IS" xml:space="preserve">
+    <value>Provider={0};Password={1};User ID={2};Data Source={3};Initial Catalog={4};</value>
+  </data>
+  <data name="SEARCHING" xml:space="preserve">
+    <value>Searching...</value>
+  </data>
+  <data name="TEMPLATE" xml:space="preserve">
+    <value>using System;
+using System.Data;
+
+namespace {NAMESPACE}
+{
+	#region Comments
+	/// &lt;summary&gt;
+	/// {OBJECTNAME} Class.
+	/// &lt;/summary&gt;
+	/// &lt;remarks&gt;
+	/// &lt;h3&gt;Changes&lt;/h3&gt;
+	/// &lt;list type="table"&gt;
+	/// 	&lt;listheader&gt;
+	/// 		&lt;th&gt;Author&lt;/th&gt;
+	/// 		&lt;th&gt;Date&lt;/th&gt;
+	/// 		&lt;th&gt;Details&lt;/th&gt;
+	/// 	&lt;/listheader&gt;
+	/// 	&lt;item&gt;
+	/// 		&lt;term&gt;{AUTHOR}&lt;/term&gt;
+	/// 		&lt;description&gt;{DATECREATED}&lt;/description&gt;
+	/// 		&lt;description&gt;Created&lt;/description&gt;
+	/// 	&lt;/item&gt;
+	/// &lt;/list&gt;
+	/// &lt;/remarks&gt;
+	#endregion
+
+	[Serializable]
+	public class {OBJECTNAME}
+	{
+		#region Construction
+		/// &lt;summary&gt;
+		/// Initializes a new (no-args) instance of the {OBJECTNAME} class.
+		/// &lt;/summary&gt;
+		public {OBJECTNAME}()
+		{
+		}
+
+		/// &lt;summary&gt;
+		/// Initializes a new instance of the {OBJECTNAME} class.
+		/// &lt;/summary&gt;
+		public {OBJECTNAME}({CTORPARAMETERS})
+		{
+			{CTORBODY}
+		}
+		#endregion
+
+		#region Properties
+		{PROPERTIES}
+		#endregion
+
+		#region Overrides
+		/// &lt;summary&gt;
+		/// Returns the Primary Key of the object.
+		/// &lt;/summary&gt;
+		/// &lt;returns&gt;String&lt;/returns&gt;
+		public override String ToString()
+		{
+			return "[{OBJECTNAME}] " + this.{PRIMARYKEY}.ToString();
+		}
+
+		/// &lt;summary&gt;
+		/// Returns true if the Ids of the two instances are equal.
+		/// &lt;/summary&gt;
+		/// &lt;param name="ObjectToCompare"&gt;The other object instance.&lt;/param&gt;
+		/// &lt;returns&gt;String&lt;/returns&gt;
+		public override Boolean Equals(Object ObjectToCompare)
+		{
+			if(ObjectToCompare == null) return false;
+			{OBJECTNAME} otherObject = ObjectToCompare as {OBJECTNAME};
+			if (otherObject == null) return false;
+			return {OBJECTNAME}.Equals(this, otherObject);
+		}
+
+		/// &lt;summary&gt;
+		/// Returns the GetHashCode() method of the Primary Key member.
+		/// &lt;/summary&gt;
+		/// &lt;returns&gt;String&lt;/returns&gt;
+		public override Int32 GetHashCode()
+		{
+			return this.{PRIMARYKEY}.GetHashCode();
+		}
+		#endregion
+
+		#region CRUD Methods
+		/// &lt;summary&gt;
+		/// Load a single record.
+		/// &lt;/summary&gt;
+		public virtual void Load() { throw new NotImplementedException(); }
+
+		/// &lt;summary&gt;
+		/// Load all records.
+		/// &lt;/summary&gt;
+		public virtual void LoadAll() { throw new NotImplementedException(); }
+
+		/// &lt;summary&gt;
+		/// Insert a new record.
+		/// &lt;/summary&gt;
+		public virtual void Insert() { throw new NotImplementedException(); }
+
+		/// &lt;summary&gt;
+		/// Update existing record.
+		/// &lt;/summary&gt;
+		public virtual void Update() { throw new NotImplementedException(); }
+
+		/// &lt;summary&gt;
+		/// Delete existing record.
+		/// &lt;/summary&gt;
+		public virtual void Delete() { throw new NotImplementedException(); }
+		#endregion
+	}
+}</value>
+  </data>
+  <data name="TOKEN" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="TOKENS" xml:space="preserve">
+    <value>Tokens</value>
+  </data>
+  <data name="VERSION" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+</root>

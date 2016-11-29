@@ -311,29 +311,5 @@ namespace GNR8
 			Application.Exit();
 		}
 		#endregion
-
-        private void btnGenerateClasses_Click(object sender, EventArgs e)
-        {
-            if (this.lstObjects.CheckedItems.Count == 0)
-            {
-                MessageBox.Show(Resources.NO_OBJECTS_SELECTED, ApplicationAttributes.AssemblyTitle, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else
-            {
-                    Collection<string> selected = new Collection<string>();
-
-                    // Gather each of the selected items (if any) into a collection object.
-                    foreach (int item in this.lstObjects.CheckedIndices)
-                    {
-                        selected.Add(this.lstObjects.Items[item].ToString());
-
-                    }
-
-                    // Pass the collection to Process and display.
-                    Process process = new Process(selected);
-                    process.ShowDialog();
-             
-            }
-        }
 	}
 }
